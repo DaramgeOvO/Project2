@@ -79,16 +79,13 @@ const StoreButton = styled.div`
 
 const Footer = styled.div`
   width: 100%;
-  height: 500px;
-  background-color: grey;
-`;
-
-const FooterText = styled.div`
-  color: white;
-  font-size: 24px;
+  height: 70px;
+  padding: 30px 0;
   text-align: center;
-  align-items: center;
-  line-height: 150px;
+  background-color: #8e8e8e;
+  color: white;
+  line-height: 30px;
+  font-size: 24px;
 `;
 
 export function Store() {
@@ -120,10 +117,8 @@ export function Store() {
         </StoreGrid>
       </Container>
       <Footer>
-        <FooterText>
-          Footer <br />
-          Designed by MajorFlow
-        </FooterText>
+        Footer <br />
+        Designed by MajorFlow
       </Footer>
     </>
   );
